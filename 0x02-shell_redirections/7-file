@@ -1,2 +1,2 @@
 #!/bin/bash
-filename="*\\'"Best School"\'\\*\$\?\*\*\*\*\*:)" && rm -f "$filename" 2>/dev/null && echo "Best School" > "$filename"
+echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
